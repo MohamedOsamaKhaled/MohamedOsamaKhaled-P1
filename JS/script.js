@@ -29,12 +29,12 @@ window.onscroll = () => {
 
     //! load div part
     if (scrollPosition > aboutSection.offsetTop) {
-        document.querySelector(".percentage.HTML").style.width = "90%"
-        document.querySelector(".percentage.CSS").style.width = "90%"
-        document.querySelector(".percentage.SCSS").style.width = "80%"
-        document.querySelector(".percentage.BS").style.width = "80%"
-        document.querySelector(".percentage.JS").style.width = "90%"
-        document.querySelector(".percentage.NG").style.width = "75%"
+        document.querySelector(".percentage.HTML").style.width = "75%"
+        document.querySelector(".percentage.CSS").style.width = "95%"
+        document.querySelector(".percentage.SCSS").style.width = "85%"
+        document.querySelector(".percentage.BS").style.width = "85%"
+        document.querySelector(".percentage.JS").style.width = "80%"
+        document.querySelector(".percentage.NG").style.width = "65%"
     }
 }
 
@@ -49,7 +49,7 @@ for (let i = 0; i < navLinks.length; i++) {
 
 //! Typed Js Script
 var typed = new Typed('#typed', {
-    strings: ["Full-Stack Developer.^1000", "Freelancer.^1000"],
+    strings: ["DevOps Engineer.^1000", "Freelancer.^1000"],
     typeSpeed: 80,
     loop: true,
 });
